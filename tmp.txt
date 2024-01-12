@@ -1,0 +1,4 @@
+Wrote Python code to clean & parse large numbers of global phone numbers and global addresses without any APIs (i.e. offline).
+• Built upon phonenumbers library by handling numbers inputted differently, validating outputs, & removing garbage numbers.
+• Implemented geolocation using pgeocode, flashgeotext, and libpostal. Fuzzy matched duplicate zipcodes using fuzzywuzzy.
+• Was able to correctly extract the city, state, country and zipcode from 95% of test addresses (7k total test addresses).
